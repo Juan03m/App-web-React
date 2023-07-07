@@ -1,0 +1,40 @@
+.pie {
+    padding: 10px;
+    background: #191919;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 12px;
+    color: #fff;
+    margin-top:50px;
+}
+
+nav#social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+nav#social-icons ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav#social-icons ul li a {
+    padding: 5px;
+    font-weight: 800;
+    display: block;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+nav#social-icons ul li a:hover {
+    color: #8d60d7;
+}
+  
+nav#social-icons ul li.last {
+    margin-left: auto;
+}

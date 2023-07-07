@@ -1,0 +1,71 @@
+.listGameCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GameCard {
+  background-color: #212123;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  width: calc(25% - 10px); /* Para mostrar 4 tarjetas por fila */
+}
+
+.GameCard-content {
+  padding: 0 20px 0 0;
+}
+
+.GameCard-thumbnail {
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 100%;
+  padding: 10px;
+  background: rgba(0,0,0,.3);
+}
+
+.GameCard-thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.GameCard-plataforma {
+  margin: 0;
+}
+
+.GameCard-info {
+  padding: 10px;
+}
+
+.GameCard-title {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.GameCard-description {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.GameCard-footer {
+  padding: 10px;
+}
+
+.GameCard-footer a {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 400;
+  padding: 5px 20px;
+  background: #6064d757;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.GameCard-footer a.genero {
+  display: inline-block;
+  border: 1px solid #6064d757;
+  margin-left: 10px;
+  background: none;
+}

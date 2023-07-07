@@ -1,0 +1,22 @@
+.alert {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.alert.success {
+    background: #60d77f;
+    border: 1px solid #65ff8d;
+    color: #222;
+}
+.alert.error {
+    background: #d76060;
+    border: 1px solid #ff6565;
+    color: #fff;
+}
+.alert.fadeOut {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}

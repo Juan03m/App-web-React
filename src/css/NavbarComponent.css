@@ -1,0 +1,31 @@
+nav#menu-principal {
+    background: #8d60d7;
+}
+
+nav#menu-principal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+nav#menu-principal ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav#menu-principal ul li a {
+    padding: 15px 20px 13px 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #8d60d7; 
+    display: block;
+}
+
+nav#menu-principal ul li a:hover {
+  border-bottom: 2px solid #ffffff; 
+}
+  
+nav#menu-principal ul li.last {
+    margin-left: auto;
+}
